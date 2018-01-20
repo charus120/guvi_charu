@@ -29,6 +29,6 @@ scanf("%s",&s1);
 scanf("%s",&s2);
 n=strlen(s2);
 m=strlen(s1);
-printf("%s",isomorphic(s1,s2,m,n)==1?"true":"false");
+printf("%s",isomorphic(s1,s2,m,n)==1?"yes":"no");
 return 0;
 }
